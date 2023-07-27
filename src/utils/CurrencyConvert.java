@@ -8,7 +8,7 @@ import java.net.URL;
 import java.nio.charset.StandardCharsets;
 
 public class CurrencyConvert {
-    private static final String API_BASE_URL = "http://127.0.0.1:8000/currency/api/convert/";
+    private static final String API_BASE_URL = "https://api-currency.onrender.com/currency/api/convert/";
 
     public static String getCurrency(String currencys) throws IOException {
         URL url = new URL(API_BASE_URL + currencys);
