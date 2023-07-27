@@ -116,7 +116,6 @@ public class MainView extends JFrame {
         setContentPane(cardPanel);
 
         pack();
-        /* setSize(400, 300); */
         setLocationRelativeTo(null);
     }
 
@@ -298,12 +297,11 @@ public class MainView extends JFrame {
 
                 @Override
                 public void removeUpdate(DocumentEvent e) {
+                    updateOutputCurrency();
                 }
 
                 @Override
                 public void changedUpdate(DocumentEvent e) {
-                    // Código para manejar cambios en atributos del documento (generalmente no se
-                    // usa en JTextField)
                 }
 
                 private void updateOutputCurrency() {
@@ -317,10 +315,9 @@ public class MainView extends JFrame {
                             System.out.println(baseGet + " " + toGet);
                         }
                     } catch (NumberFormatException ex) {
-                        // Manejar la excepción en caso de que el texto ingresado no sea un número
-                        // válido.
                         System.out.println("Error: El texto ingresado no es un número válido.");
-                        outputCurrencyTextField.setText("0"); // O un valor predeterminado en caso de error.
+                         // O un valor predeterminado en caso de error.
+                        outputCurrencyTextField.setText("0");
                     }
                 }
             });
