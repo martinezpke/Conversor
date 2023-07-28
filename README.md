@@ -1,9 +1,16 @@
 > Esta Aplicacion se hizo con fines educativos.
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Alura_ONE-Challenge%232-orange">
+  <img src="https://img.shields.io/badge/Status-finalizado-blue"><br>
+  <img src="https://img.shields.io/badge/JRE-20-red">
+</p>
+
 ## Apliacion de convercion de divisas.
 * Java
-* Python - API 
 * JavaSwing - windowBuilder
+* Python 
+* Django - API
 
 Esta aplicación fue desarrollada en `Java` para facilitar la conversión de divisas de manera rápida y sencilla. Para lograrlo, se creó una API personalizada en `Python` que realiza web scraping en la página de Google Finance para obtener la información necesaria.
 
