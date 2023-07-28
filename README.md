@@ -1,18 +1,10 @@
-## Getting Started
+## Apliacion de convercion de divisas.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Esta aplicación fue desarrollada en `Java` para facilitar la conversión de divisas de manera rápida y sencilla. Para lograrlo, se creó una API personalizada que realiza web scraping en la página de Google Finance para obtener la información necesaria. La API fue desarrollada en `Python`.
 
-## Folder Structure
+Interfaz inicial
+![image](https://github.com/martinezpke/Conversor/assets/120543053/d86d1054-02d6-4ec9-8dd6-90398a93d1fc)
 
-The workspace contains two folders by default, where:
+Interfaz Divisas
+![image](https://github.com/martinezpke/Conversor/assets/120543053/8cf81fb5-4fbc-4e9e-81f5-c49b8826db94)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
