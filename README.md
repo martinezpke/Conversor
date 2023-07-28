@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Alura_ONE-Challenge%232-orange">
-  <img src="https://img.shields.io/badge/Status-finalizado-blue"><br>
+  <img src="https://img.shields.io/badge/Status-Proceso-yellow"><br>
   <img src="https://img.shields.io/badge/JRE-20-red">
 </p>
 
